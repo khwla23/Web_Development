@@ -20,14 +20,15 @@ write
 React.createElement('div', {id: 'hello', className: ''dummyclass} , " Hello ")
 
 --------------------In JSX-------------------------
+
 same code will be written as
 return (
-     <div className: "dummyClass" > <h1> Hello </h1> </div>
+     <div className: "dummyClass" > '<h1>' Hello '</h1>' </div>
 );
 As shown above
-class ==> className
-for ==> htmlFor
-onclick ==> onClick
+class ==> className,
+for ==> htmlFor,
+onclick ==> onClick,
 tabindex ==> tabIndex
 (camelCase property)
 ------------------------------------------------------------------------------------------------------
