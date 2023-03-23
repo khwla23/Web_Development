@@ -27,6 +27,8 @@ React.createElement('div', {id: 'hello', className: ''dummyclass} , " Hello ")
 same code will be written as
 
 return ( <div className: "dummyClass" > '<head>' Hello '</head>' </div>);
+
+
 As shown above
 class ==> className,
 for ==> htmlFor,
