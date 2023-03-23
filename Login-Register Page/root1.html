@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles1.css">
+    <title>Register Now</title>
+</head>
+<body>
+    <img src="sde.jpg" alt="Image" />
+    <div id="txt">
+      <h1>REGISTER NOW</h1>
+      <p>while seats are available!</p>
+    </div>
+    <section id = "right">
+        <label for = "Fname">First Name: </label><br>
+        <input type = "text" id = "Fname" placeholder="John" required><br><br>
+
+        <label for = "Lname">Last Name: </label><br>
+        <input type = "text" id = "Lname" placeholder="Wick" required><br><br>
+
+        <label for = "companyname">Company: </label><br>
+        <input type = "text" id = "companyname" placeholder="The High Table" required><br><br>
+
+        <label for = "email">Email: </label><br>
+        <input type = "email" id = "email" placeholder="babayaga@hotmail.com" required><br><br>
+
+        <label for = "pnum">Phone Number: </label><br>
+        <input type = "number" id = "pnum" placeholder="306" required><br><br>
+    </section>
+
+    <section  id = "left">
+    <div>
+        <label for = "meal">Meal Preference: </label><br>
+        <!-- <input type = "" id = "meal" placeholder="Vegetarian" required><br> -->
+        <form>
+            <select>
+                <option>Vegetarian</option>
+                <option>Indian</option>
+                <option>Chinese</option>
+                <option>Italian</option>
+            </select>
+        </form>
+    </div><br>
+        <label for = "pay">Payment mode: </label><br>
+    <div>
+        <input type = "radio" value = "Cash" name = "pay" id = "cash"><label class = "f" for = "cash"> Cash</label>
+        <input type = "radio" value = "Cheque" name = "pay" id = "ch"><label class = "f" for = "Ch"> Cheque</label>
+        <input type = "radio" value = "Demand Draft" name = "pay" id = "dd"><label class = "f" for = "dd"> Demand Draft</label>
+    </div> <br>
+    <div>
+        <label for = "chnum">DD/ Cheque no: </label><br>
+        <input type = "text" id = "chnum" placeholder="14 million"><br><br>
+
+        <label for = "bname">Drawn on (BANK NAME): </label><br>
+        <input type = "text" id = "bname" placeholder="Bowery King" required><br><br>
+
+        <label for = "pat">Payable at: </label><br>
+        <input type = "text" id = "pat" placeholder="Excommunicado" required><br><br>
+    </div>
+    </section>
+
+    <section id = "bottom">
+        <div id="donate">
+            <label for="Donate">DONATE US</label><br />
+            <div type="text" maxlength="50"></div>
+        </div>
+
+        <div class="line">
+            <div class="text" id="text">< $500 ></div>
+        </div>
+    
+        <!-- <div id="amt">< $500 ></div> -->
+        <div>
+        <button id="submit" class="button" type="Submit">SUBMIT</button>
+        <button id="reset" class="button" type="reset">RESET</button>
+        <!-- <input type = "reset" value = "RESET"> -->
+        </div>
+    </section>
+
+</body>
+</html>

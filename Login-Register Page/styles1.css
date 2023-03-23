@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding :0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 90vh;
+    background: url(bgg.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:aliceblue;
+}
+img{
+    width: 60vh;
+    height: 105vh;
+    opacity: 0.6;
+    position: fixed;
+    margin-top:-90px;
+}
+
+#txt {
+    color: rgb(242, 219, 219);
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: 10vh;
+}
+#right{
+    margin-top : 60px;
+    margin-left: 350px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(229, 237, 234);
+    background: transparent;
+    /* border: 2px solid #e7a2a280; */
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+}
+
+#left{
+    margin-top : -410px;
+    margin-left: 785px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(229, 237, 234);
+    background: transparent;
+    /* border: 2px solid #e7a2a280; */
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+}
+
+#bottom{
+    margin-left: 350px;
+    position: relative;
+    width: 67%;
+    height: 100px;
+    background-color: rgb(229, 237, 234);
+    background: transparent;
+    /* border: 2px solid #e7a2a280; */
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+}
+
+label{
+    padding: 2px;
+    height: 8%;
+    width: 200px;
+    color:rgb(233, 181, 139);
+    size: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    border-radius: 5px;
+}
+
+#submit{
+    border: 5px solid rgb(207, 77, 103);
+    color : white;
+    font-weight: bold;
+    background-color : rgb(207, 77, 103);
+    margin-left: 75%;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+#reset{
+    border : 5px solid white;
+    background-color: white;
+    font-weight: bold;
+    color : rgb(207, 77, 103);
+    font-size: 20px;
+}
+
+#donate{
+    position: absolute;
+    font-weight: bold;
+    margin-top: -6%;
+    margin-left: 5vh;
+    
+    font-size: 20;
+}
+
+.line {
+    position: relative;
+    height: 2px;
+    width: 55%;
+    background-color: rgba(183, 206, 233, 0.893);
+    cursor: pointer;
+    margin-left: 5vh;
+    margin-top:50px;
+  }
+  
+  .text {
+    position: absolute;
+    top: -12px;
+    margin-left: 15vh;
+    color : rgb(211, 227, 236);
+    border-radius : 1vh;
+    background-color:rgb(93, 36, 41);
+    font-weight: bold;
+  }
+  
+  p{
+    color: white;
+  }
+ .f{
+    color:rgb(214, 203, 182);
+    font-size: 17px;
+  }
