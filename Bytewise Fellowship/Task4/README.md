@@ -10,16 +10,20 @@ JSX is a syntax extension for JavaScript that lets you write HTML-like markup in
 DIFFERENCE BETWEEN JSX AND REGULAR HTML
 
 --------------In JavaScript---------------------
+
 return React.createElement('div', null, "Hello")
+
 In JS class is a reserved word so instead of writing
-React.createElement('div', {id: 'hello', class: ''dummyclass} , "Hello")
+
+React.createElement('div', {id: 'hello', class: ''dummyclass} , " Hello ")
 write
-React.createElement('div', {id: 'hello', className: ''dummyclass} , "Hello")
+React.createElement('div', {id: 'hello', className: ''dummyclass} , " Hello ")
+
 --------------------In JSX-------------------------
 same code will be written as
 return (
      <div className: "dummyClass" > <h1> Hello </h1> </div>
-)
+);
 As shown above
 class ==> className
 for ==> htmlFor
@@ -61,7 +65,7 @@ Also,
 {
   const name = 'Khwla';
   return (
-    <h1>{name}'s To Do List</h1>
+    <h1> { name }'s To Do List</h1>
   );
 }
 
