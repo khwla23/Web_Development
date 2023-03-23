@@ -16,15 +16,17 @@ return React.createElement('div', null, "Hello")
 In JS class is a reserved word so instead of writing
 
 React.createElement('div', {id: 'hello', class: ''dummyclass} , " Hello ")
+
 write
+
 React.createElement('div', {id: 'hello', className: ''dummyclass} , " Hello ")
+
 
 --------------------In JSX-------------------------
 
 same code will be written as
-return (
-     <div className: "dummyClass" > '<h1>' Hello '</h1>' </div>
-);
+
+return ( <div className: "dummyClass" > '<head>' Hello '</head>' </div>);
 As shown above
 class ==> className,
 for ==> htmlFor,
