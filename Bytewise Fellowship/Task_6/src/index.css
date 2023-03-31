@@ -1,0 +1,27 @@
+:root {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+h2{
+  margin-bottom: 20px;
+  padding : 0%;
+  margin-top : 10%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: darkblue;
+  font-family: 'Times New Roman';
+}
+
