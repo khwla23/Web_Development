@@ -20,5 +20,5 @@ function AddItemForm(props) {
     </form>
   );
 }
-
+/*Adding Item*/
 export default AddItemForm;
