@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.whole {
+  border: 5px wheat solid;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.del-btn {
+  color: azure;
+  background-color: rgb(48, 45, 45);
+  width: 50px;
+  border: 10px rgb(48, 45, 45) solid;
+  border-radius: 10px;
+}
+
+h2 {
+  color: rgb(112, 112, 250);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500px;
+}
+p {
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
