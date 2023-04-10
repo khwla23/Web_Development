@@ -1,1 +1,100 @@
-css
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo-list {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffd6d6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Times New Roman";
+  margin-top: 0;
+  text-align: center;
+  color: #374785;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e5f0fa;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgba(28, 24, 24, 0.3);
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto";
+  background-color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #153664;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+  color: #374785;
+  width: 60%;
+  font-family: "Times New Roman";
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(216, 62, 62, 0.3);
+}
+
+input[type="submit"] {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2f5b8e;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b3861;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
