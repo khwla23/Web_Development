@@ -1,0 +1,35 @@
+.h3e {
+  color: rgb(23, 166, 255);
+  font-size: 2rem;
+}
+
+.liste {
+  color: rgb(31, 198, 253);
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.btn {
+  color: rgb(0, 91, 202);
+  background-color: rgb(244, 169, 244);
+  margin: 0px 10px 0px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  border: 0px plum solid;
+  border-radius: 20px;
+}
+
+.divA {
+  color: #8d4358;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.iA {
+  color: purple;
+  font-size: 25px;
+}
+.pA {
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,24 @@
+* {
+  background-color: #f1defa;
+}
+
+.heading {
+  color: palevioletred;
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(166, 79, 108);
+  border-radius: 10px;
+  border: 10px rgb(166, 79, 108) solid;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.paredit {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
